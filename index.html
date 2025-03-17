@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="file:///C:/Users/Acer/Downloads/icons8-weather-120.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Weather App</h1>
+    <p>Your go-to app for real-time weather updates</p>
+  </header>
+ 
+  <main>
+    <div class="container">
+      <div class="search-container">
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button id="search-btn">Search</button>
+      </div>
+      <div class="weather-card">
+        <div id="weather-info">
+          <h2 id="city-name">City Name</h2>
+          <div id="weather-icon"></div>
+          <p id="temperature">🌡️ --°C</p>
+          <p id="weather-description">Weather Description</p>
+          <div class="details">
+            <p id="humidity">💧 Humidity: --%</p>
+            <p id="wind-speed">🌬️ Wind Speed: -- m/s</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>© 2023 Weather App. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
